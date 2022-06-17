@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { initJsStore } from "./storage_service/idb_service";
+
+initJsStore()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
